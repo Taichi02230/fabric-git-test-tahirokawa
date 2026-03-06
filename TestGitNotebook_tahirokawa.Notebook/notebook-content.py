@@ -46,7 +46,7 @@ print("Hello World.I'm Taichi")
 
 # CELL ********************
 
-df = spark.sql("SELECT * FROM TestGitLakehouse_tahirokawa.factory_equipment_12months LIMIT 1000")
+df = spark.sql("SELECT * FROM TestGitLakehouse_tahirokawa.factory_equipment_12months LIMIT 10")
 display(df)
 
 # METADATA ********************
