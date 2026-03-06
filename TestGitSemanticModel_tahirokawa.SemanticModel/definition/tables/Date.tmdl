@@ -1,0 +1,348 @@
+table Date
+	lineageTag: af16b835-0979-45d4-8ba5-e81eec1102cb
+	sourceLineageTag: [dbo].[Date]
+
+	column DateID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 885b8220-bd72-44a2-939e-9982bf8741c1
+		sourceLineageTag: DateID
+		summarizeBy: none
+		sourceColumn: DateID
+
+		annotation SummarizationSetBy = Automatic
+
+	/// 日本語にかえたよ
+	column 日付
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: datetime2
+		lineageTag: 3a24b9c3-7d61-453b-b507-835dac6c37d3
+		sourceLineageTag: Date
+		summarizeBy: none
+		sourceColumn: Date
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column DateBKey
+		dataType: string
+		sourceProviderType: char
+		lineageTag: 48ee03cb-81f7-40d4-bc7a-a54fa4f507ab
+		sourceLineageTag: DateBKey
+		summarizeBy: none
+		sourceColumn: DateBKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfMonth
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: b9d55286-767c-46cb-919f-f2f48ea2a5c6
+		sourceLineageTag: DayOfMonth
+		summarizeBy: none
+		sourceColumn: DayOfMonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column DaySuffix
+		dataType: string
+		sourceProviderType: varchar(4)
+		lineageTag: 8b91ab97-6765-472a-bc5e-e6ecc644ad77
+		sourceLineageTag: DaySuffix
+		summarizeBy: none
+		sourceColumn: DaySuffix
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayName
+		dataType: string
+		sourceProviderType: varchar(9)
+		lineageTag: 6471dbd3-9fe9-4c72-bb19-8ed833ef72d3
+		sourceLineageTag: DayName
+		summarizeBy: none
+		sourceColumn: DayName
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfWeek
+		dataType: string
+		sourceProviderType: char
+		lineageTag: 6e11ebbf-d390-4b9e-82d2-bbfa58da31ba
+		sourceLineageTag: DayOfWeek
+		summarizeBy: none
+		sourceColumn: DayOfWeek
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfWeekInMonth
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 6fc75154-1a28-40da-9246-b9533556c1e5
+		sourceLineageTag: DayOfWeekInMonth
+		summarizeBy: none
+		sourceColumn: DayOfWeekInMonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfWeekInYear
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: b8cea7b9-7c36-4e02-a39f-4b86c83241c4
+		sourceLineageTag: DayOfWeekInYear
+		summarizeBy: none
+		sourceColumn: DayOfWeekInYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfQuarter
+		dataType: string
+		sourceProviderType: varchar(3)
+		lineageTag: 8f719f05-74d9-44f1-b324-0934aa085e1c
+		sourceLineageTag: DayOfQuarter
+		summarizeBy: none
+		sourceColumn: DayOfQuarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfYear
+		dataType: string
+		sourceProviderType: varchar(3)
+		lineageTag: 768778d0-0606-498c-b380-8946fb854667
+		sourceLineageTag: DayOfYear
+		summarizeBy: none
+		sourceColumn: DayOfYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekOfMonth
+		dataType: string
+		sourceProviderType: varchar(1)
+		lineageTag: cebbce12-1f41-4aff-98db-36772f398a1e
+		sourceLineageTag: WeekOfMonth
+		summarizeBy: none
+		sourceColumn: WeekOfMonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekOfQuarter
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 30c2b970-04a9-4dba-8954-689d0b6aff7a
+		sourceLineageTag: WeekOfQuarter
+		summarizeBy: none
+		sourceColumn: WeekOfQuarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekOfYear
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: bbcfcf00-6cbe-42a6-8417-ca9c5ae09b33
+		sourceLineageTag: WeekOfYear
+		summarizeBy: none
+		sourceColumn: WeekOfYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 5af706f3-18e4-4e7b-85ed-f8256cbd66e3
+		sourceLineageTag: Month
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthName
+		dataType: string
+		sourceProviderType: varchar(9)
+		lineageTag: bdbc086b-d1ff-46c6-8656-ff341e4bcbb5
+		sourceLineageTag: MonthName
+		summarizeBy: none
+		sourceColumn: MonthName
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthOfQuarter
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 96238388-b4e4-4753-84d8-87d90c0073c8
+		sourceLineageTag: MonthOfQuarter
+		summarizeBy: none
+		sourceColumn: MonthOfQuarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		sourceProviderType: char
+		lineageTag: 491f7777-a2ff-4a40-86f1-a937fd62bc40
+		sourceLineageTag: Quarter
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterName
+		dataType: string
+		sourceProviderType: varchar(9)
+		lineageTag: 3f72a272-3566-46ee-a058-a92f162b1fb6
+		sourceLineageTag: QuarterName
+		summarizeBy: none
+		sourceColumn: QuarterName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: string
+		sourceProviderType: char
+		lineageTag: 725dd1b6-5604-4522-aa35-6dec7af970f5
+		sourceLineageTag: Year
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearName
+		dataType: string
+		sourceProviderType: char
+		lineageTag: 0cbcc821-de9e-43cc-b4f3-c1682e778803
+		sourceLineageTag: YearName
+		summarizeBy: none
+		sourceColumn: YearName
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthYear
+		dataType: string
+		sourceProviderType: char
+		lineageTag: cfd33e8a-a8ce-4309-943e-e8d00593c62d
+		sourceLineageTag: MonthYear
+		summarizeBy: none
+		sourceColumn: MonthYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column MMYYYY
+		dataType: string
+		sourceProviderType: char
+		lineageTag: 34901639-d451-477d-8f18-39300e2d755b
+		sourceLineageTag: MMYYYY
+		summarizeBy: none
+		sourceColumn: MMYYYY
+
+		annotation SummarizationSetBy = Automatic
+
+	column FirstDayOfMonth
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 5d32a0a2-ee1f-4fce-ac20-27199293d66d
+		sourceLineageTag: FirstDayOfMonth
+		summarizeBy: none
+		sourceColumn: FirstDayOfMonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column LastDayOfMonth
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: d20420cc-d671-4adb-8f1d-62b6039d032b
+		sourceLineageTag: LastDayOfMonth
+		summarizeBy: none
+		sourceColumn: LastDayOfMonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column FirstDayOfQuarter
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 0d8f2ff7-e0d9-467d-a32a-072b881d5bfc
+		sourceLineageTag: FirstDayOfQuarter
+		summarizeBy: none
+		sourceColumn: FirstDayOfQuarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column LastDayOfQuarter
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 7b25c0de-d0ed-4cfa-86e7-70131308755c
+		sourceLineageTag: LastDayOfQuarter
+		summarizeBy: none
+		sourceColumn: LastDayOfQuarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column FirstDayOfYear
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 1d2bb3bb-5909-4e61-817d-25336e5cd1f2
+		sourceLineageTag: FirstDayOfYear
+		summarizeBy: none
+		sourceColumn: FirstDayOfYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column LastDayOfYear
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 26142098-2cb1-43ee-8562-a617fc74c5e3
+		sourceLineageTag: LastDayOfYear
+		summarizeBy: none
+		sourceColumn: LastDayOfYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsHolidayUSA
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: bdc3fa14-f767-4519-84e1-abbb1e8f5440
+		sourceLineageTag: IsHolidayUSA
+		summarizeBy: none
+		sourceColumn: IsHolidayUSA
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsWeekday
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: e0454329-b220-4788-be1a-b83b8e716eff
+		sourceLineageTag: IsWeekday
+		summarizeBy: none
+		sourceColumn: IsWeekday
+
+		annotation SummarizationSetBy = Automatic
+
+	column HolidayUSA
+		dataType: string
+		sourceProviderType: varchar(50)
+		lineageTag: 3ad31369-3f7e-482f-a581-b70c0fcca8eb
+		sourceLineageTag: HolidayUSA
+		summarizeBy: none
+		sourceColumn: HolidayUSA
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Date = entity
+		mode: directLake
+		source
+			entityName: Date
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+
