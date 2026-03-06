@@ -1,4 +1,0 @@
-relationship b14e62aa-31aa-8717-443c-e4fade9608cb
-	fromColumn: Date.DateID
-	toColumn: Weather.DateID
-

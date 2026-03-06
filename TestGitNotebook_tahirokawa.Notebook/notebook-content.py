@@ -43,15 +43,3 @@ print("Hello World.I'm Taichi")
 # META   "language": "python",
 # META   "language_group": "synapse_pyspark"
 # META }
-
-# CELL ********************
-
-df = spark.sql("SELECT * FROM TestGitLakehouse_tahirokawa.factory_equipment_12months LIMIT 10")
-display(df)
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
